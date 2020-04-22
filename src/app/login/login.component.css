@@ -1,0 +1,13 @@
+::ng-deep .mat-card-header .mat-card-title {
+  font-size: 1.8em;
+  color: grey;
+  font-weight: 400;
+}
+
+::ng-deep .mat-card-header-text {
+  margin-left: 0 !important;
+}
+
+::ng-deep .mat-card {
+  background: transparent !important;
+}

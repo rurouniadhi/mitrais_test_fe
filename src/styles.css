@@ -1,1 +1,55 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: #f5f5f5 !important;
+}
+.bg-purple {
+    background-color: #9c27b0 !important;
+}
+.btn.bg-purple {
+    color: white;
+}
+.btn.bg-purple:disabled {
+  opacity: 1 !important;
+  background-color: #9c27b05c !important;
+}
+.btn:not(:disabled).bg-purple:hover {
+    color: #c58ccf;
+}
+.btn:disabled.bg-purple:hover {
+    color: white;
+}
+.bg-red {
+    background-color: #f44336 !important;
+}
+.custom-control-label::after {
+  height: .98rem !important;
+}
+.custom-control-input:checked~.custom-control-label::before {
+  border-color: #9c27b0 !important;
+  background-color: #9c27b0 !important;
+}
+.spinner {
+  display: inline-block !important;
+  margin: 0 4px 0 -4px !important;
+}
+.footer-container {
+  width: 50%;
+  padding: 16px 16px 30px;
+  position: absolute;
+  bottom: 10px;
+}
+.successSnackbar {
+  background-color: #b3e6b3;
+  color: #414141;
+}
+.errorSnackbar {
+  background-color: #f5c9c9;
+  color: #414141;
+}
+.mat-simple-snackbar-action {
+  color: #414141;
+}
