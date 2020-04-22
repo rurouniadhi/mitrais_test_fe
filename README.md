@@ -10,3 +10,4 @@ cd mitrais_test_fe
 npm install
 ng serve
 ```
+open ```localhost:4200``` in your browser
